@@ -10,6 +10,7 @@
 		872BF1AC19841C3400BA4DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872BF1AB19841C3400BA4DF3 /* Foundation.framework */; };
 		872BF1AF19841C3400BA4DF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872BF1AE19841C3400BA4DF3 /* main.m */; };
 		872BF1B319841C3400BA4DF3 /* objC_learning.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 872BF1B219841C3400BA4DF3 /* objC_learning.1 */; };
+		872BF1BF19842B5F00BA4DF3 /* Loop.m in Sources */ = {isa = PBXBuildFile; fileRef = 872BF1BE19842B5F00BA4DF3 /* Loop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		872BF1AE19841C3400BA4DF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		872BF1B119841C3400BA4DF3 /* objC-learning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objC-learning-Prefix.pch"; sourceTree = "<group>"; };
 		872BF1B219841C3400BA4DF3 /* objC_learning.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = objC_learning.1; sourceTree = "<group>"; };
+		872BF1BD19842B5F00BA4DF3 /* Loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loop.h; sourceTree = "<group>"; };
+		872BF1BE19842B5F00BA4DF3 /* Loop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		872BF19F19841C3400BA4DF3 = {
 			isa = PBXGroup;
 			children = (
+				872BF1BD19842B5F00BA4DF3 /* Loop.h */,
+				872BF1BE19842B5F00BA4DF3 /* Loop.m */,
 				872BF1AD19841C3400BA4DF3 /* objC-learning */,
 				872BF1AA19841C3400BA4DF3 /* Frameworks */,
 				872BF1A919841C3400BA4DF3 /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				872BF1AF19841C3400BA4DF3 /* main.m in Sources */,
+				872BF1BF19842B5F00BA4DF3 /* Loop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

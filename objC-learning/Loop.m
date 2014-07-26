@@ -43,4 +43,22 @@ Have the program generate every fifth triangular number between 5 and 50.
     }
 }
 
+/*
+Write a program to generate and print a table of the first 10 factorials.
+*/
++(void)exercise3;
+{
+    int n, fn;
+    
+    printf (" N     N! \n");
+    printf ("---   -----\n");
+    
+    fn = 1;
+    
+    for (n = 1; n <= 10; ++n) {
+        fn *= n;
+        printf ("%2i     %i\n", n, fn);
+    }
+}
+
 @end

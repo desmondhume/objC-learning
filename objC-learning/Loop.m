@@ -61,4 +61,24 @@ Write a program to generate and print a table of the first 10 factorials.
     }
 }
 
+/*
+The user can type in the number of triangular numbers to be calculated, and then the numbers one by one.
+*/
++(void)exercise5;
+{
+    int calcTimes, caret, number, triangularNumber;
+    
+    NSLog(@"How many triangular numbers do you want to calculate?");
+    scanf ("%d", &calcTimes);
+    
+    for (caret = 0; caret < calcTimes; ++caret) {
+        NSLog(@"What number do you want to calculate?");
+        scanf ("%d", &number);
+        
+        triangularNumber = number * (number + 1) / 2;
+        
+        NSLog(@"Triangular number of %d is %d", number, triangularNumber);
+    }
+}
+
 @end

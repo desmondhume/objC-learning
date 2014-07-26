@@ -6,7 +6,7 @@
 
 int main (int argc, const char * argv[]) {
     @autoreleasepool {
-        [Loop exercise3];
+        [Loop exercise5];
     }
     return 0;
 }

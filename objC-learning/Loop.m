@@ -73,12 +73,38 @@ The user can type in the number of triangular numbers to be calculated, and then
     
     for (caret = 0; caret < calcTimes; ++caret) {
         NSLog(@"What number do you want to calculate?");
-        scanf ("%d", &number);
+        scanf("%d", &number);
         
         triangularNumber = number * (number + 1) / 2;
         
         NSLog(@"Triangular number of %d is %d", number, triangularNumber);
     }
 }
+
+/*
+Write a program that calculates the sum of the digits of an integer.
+For example, the sum of the digits of the number 2155 is 2 + 1 + 5 + 5, or 13.
+The program should accept any arbitrary integer the user types.
+*/
++(void)exercise8;
+{
+    int inputNum, sum, rightDigit;
+    
+    NSLog(@"Insert the number");
+    scanf("%i", &inputNum);
+    
+    sum = 0;
+    inputNum = abs(inputNum);
+    while(rightDigit != 0) {
+        rightDigit = inputNum % 10;
+
+        sum += rightDigit;
+        inputNum /= 10;
+    }
+    
+    NSLog(@"The sum of input number digits is: %d", sum);
+}
+
+
 
 @end
